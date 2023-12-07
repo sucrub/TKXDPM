@@ -1,0 +1,30 @@
+/* styles.css */
+
+.login-container {
+    -fx-background-color: transparent; /* Set background color to transparent for the StackPane */
+}
+
+.left-pane {
+    -fx-background-color: linear-gradient(to bottom, #487CE2, #48D9E2); /* Gradient background */
+    -fx-padding: 20px; /* Add some padding */
+    -fx-background-position: top; /* Set background position to the top */
+}
+
+.right-pane {
+    -fx-background-color: #E8E6E6; /* Set background color */
+    -fx-padding: 20px; /* Add some padding */
+}
+
+.card-container {
+    -fx-background-color: #ffffff; /* Set background color */
+    -fx-padding: 20px; /* Add some padding */
+    -fx-border-radius: 10px; /* Add border radius for rounded corners */
+    -fx-background-radius: 10px; /* Add background radius for rounded corners */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 20, 0, 0, 0); /* Add drop shadow effect */
+}
+
+.label, .text-field, .button {
+    -fx-font-size: 14px; /* Set font size for consistency */
+    -fx-font-family: "Arial";
+    -fx-padding: 5px; /* Add padding to elements */
+}
